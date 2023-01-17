@@ -35,7 +35,7 @@ const App = () => {
           Neutral
         </Btn>
         <Btn type="button" onClick={() => setBad(bad + 1)}>
-          Good
+          Bad
         </Btn>
       </>
       <>
