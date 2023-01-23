@@ -11,7 +11,7 @@ const App = () => {
 
   const total = good + neutral + bad;
 
-  const PositiveFeedbackPercentage = Math.round((good / total) * 100);
+  const positiveFeedbackPercentage = Math.round((good / total) * 100);
 
   const handleClickButton = e => {
     switch (e) {
@@ -44,7 +44,7 @@ const App = () => {
             neutral={neutral}
             bad={bad}
             total={total}
-            positivePercentage={PositiveFeedbackPercentage}
+            positivePercentage={positiveFeedbackPercentage}
           />
         )}
       </Section>
